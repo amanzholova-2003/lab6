@@ -1,0 +1,4 @@
+values_users = tuple(input().lower().split()) 
+tup_city = ()
+tup_city += tuple([i for i in values_users if 'ва' in i]) 
+print(*tup_city)
