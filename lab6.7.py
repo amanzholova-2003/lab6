@@ -1,0 +1,13 @@
+#set() esep
+months = set(["Jan", "March", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"])
+months_b = set(["July", "Aug", "Sep", "Oct", "Nov", "Dec"])
+months.add("Feb")
+print(months)
+months.discard("Sep")
+print(months)
+all_months = months.union(months_b)  
+print(all_months)
+z = months.intersection(months_b)
+print(z)
+diff_set = months.difference(months_b)  
+print(diff_set)
